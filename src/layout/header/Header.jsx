@@ -10,8 +10,8 @@ const Header = () => {
   return (
     <header>
       <div className={style.logo_container}>
-    <img src={Menu} alt="menu-icon" />
-    <Link to="/Home"><h3 className={style.logo}>BUYRITE</h3></Link>
+    <Link to="/Home"> <img src={Menu} alt="menu-icon" /></Link>
+    <h3 className={style.logo}>BUYRITE</h3>
     
     <input type="text" placeholder="search over 50 brands and 2000 products of your choice..." />
     </div>
@@ -21,7 +21,7 @@ const Header = () => {
     </div>
 
     </header>
-  )
+  );
 };
 
 export default Header;

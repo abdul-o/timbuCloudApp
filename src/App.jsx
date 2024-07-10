@@ -10,13 +10,11 @@ import Checkout from "./pages/Checkout/"
 function App() {
   return (
     <>
-     <Home />
+     < Home />
      
-    
      
-    
     </>
-  )
-}
+  );
+};
 
 export default App;

@@ -8,7 +8,7 @@ const Checkout = () => {
         < Header />
         < Cartflyer />
     </div>
-  )
-}
+  );
+};
 
 export default Checkout;
